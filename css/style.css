@@ -38,3 +38,17 @@ md-list-item > button{
   -webkit-transform:scale(0.70);
   -moz-transform:scale(0.70);
 }
+
+div.flex-boxes div div:nth-child(1)
+{
+  background-color: #009688;
+}
+
+div.flex-classes div div:nth-child(odd)
+{
+  background-color: #3949ab;
+}
+div.flex-classes div div:nth-child(even)
+{
+  background-color: #FF5722;
+}
